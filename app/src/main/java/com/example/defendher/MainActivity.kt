@@ -82,7 +82,7 @@ fun TopBar() {
         }
         Spacer(modifier = Modifier.weight(1f))
         Image(
-            painter = painterResource(id = R.drawable.profile_picture), // Add a profile image in your drawable folder
+            painter = painterResource(id = R.drawable.icons8_profile_picture_96), // Add a profile image in your drawable folder
             contentDescription = "Profile Picture",
             modifier = Modifier
                 .size(50.dp)
